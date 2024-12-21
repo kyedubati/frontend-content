@@ -1,0 +1,45 @@
+body{
+    background-color: #ffebcd;
+    background-image: url("https://cdn.arstechnica.net/wp-content/uploads/2016/07/2016_House_Robots.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-container{
+    display: block;
+    align-items: center;
+    background-color: #ffffff; 
+    width: 30%;
+    box-sizing: border-box;
+    margin-top: 10%;
+    margin-left: 35%;
+    padding: 2%;
+}
+
+.form-container h1{
+    margin-bottom: 10 px;
+    font-size: 4rem;
+}
+.form-container h2{
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.form-group{
+    margin-bottom: 20 px;
+}
+
+.form-group input, .form-group select{
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.link{
+    margin-left: 30%;
+    width: fit-content;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    
+}

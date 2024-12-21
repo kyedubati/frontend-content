@@ -1,0 +1,31 @@
+body{
+    background-color: bisque;
+}
+.form-container{
+    border-radius: 10px;
+    width: 30%;
+    background-color: white;
+    padding:2%;
+    margin: auto;
+    margin-top: 2%;
+}
+.form-group{
+    margin-bottom: 20px;
+}
+.form-group input, .form-group select{
+    padding: 10px;
+    margin-top:10px;
+    width: 90%;
+}
+.form-group select{
+    width: 98%;
+}
+.links{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between; 
+}
+.links a{
+    color: black;
+    text-decoration: none;  
+}

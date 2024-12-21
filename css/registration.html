@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="./registration.css">
+</head>
+<body>
+    <form class="form-container" action="/intro.html" autocomplete="on">
+        <h1>
+            Welcome droids
+        </h1>
+        <h2> Register yourself</h2>
+        <div class="form-group">
+            <label for="fname">First Name </label>
+            <input type="text" name="First Name" id="fname"><br>
+        
+        </div>
+        <div class="form-group">
+            <label for="lname">Last Name </label>
+            <input type="text" name="Last Name" id="lname"><br>
+        </div>
+        <div class="form-group">
+            <label for="Phn">Phone Number </label>
+            <input type="number" min="10" max="10" name="Phone No" id="Phn"><br>
+        </div>
+        <div class="form-group">
+            <label for="email">Email </label>
+            <input type="email" name="Email" id="email"><br>
+        </div>
+        <div class="form-group">
+            <label for="password">Password </label>
+            <input type="password" name="Password" id="password"><br>
+        </div>
+        <div class="form-group">
+            <label for="conf password">Confirm Password </label>
+            <input type="password" name="Conf Password" id="conf password"><br>
+        </div>
+        <div class="form-radio-group">
+            <label for="gender">Gender </label>
+            <input type="radio" name="gender" id="gender" value="male">
+            <label for="gender">Male</label>&nbsp;&nbsp;
+            <input type="radio" name="gender" id="gender" value="female">
+            <label for="gender">Female</label><br>
+        </div>
+        
+        <div class="form-group">
+            <label for="City">City </label>
+            <select name="City" id="city">
+                <optgroup label="US">
+                    <option value="chicago">Chicago</option>
+                    <option value="stl">St Louis</option>
+                    <option value="KC">Kansas City</option>
+                    <option value="NY">New York</option>
+                    <option value="Cinci">Cincinnati</option>
+                    <option value="Indy">Indianapolis</option>
+                    <option value="Cleveland">Cleveland</option>
+                    
+                </optgroup>
+                <optgroup label="India">
+                    <option value="Vij">Vijayawada</option>
+                    <option value="Gun">Guntur</option>
+                    <option value="Viz">Visakhapatnam</option>
+                    <option value="Ama">Amaravati</option>
+                    <option value="Elr">Eluru</option>
+                    <option value="Raj">Rajahmundry</option>
+                    <option value="Tir">Tirupati</option>
+                    
+                </optgroup>
+        </select><br>
+        
+        </div>   
+        <div class="form-group">
+            <label for="dob">Date of Birth</label>
+            <input type="date" name="dob" id="dob"><br>
+        
+        </div>
+        <div class="link">
+            <input type="submit" value="Register">
+
+        </div>
+       
+
+        
+        
+    </form>
+</body>
+</html>
